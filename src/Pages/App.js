@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import AppStore from '../Store/AppStore'; 
 import * as AppActions from '../Actions/AppActions'; 
 
-import './App.less'; 
+import './App.scss'; 
 
 class App extends Component {
   constructor() {
@@ -15,22 +15,16 @@ class App extends Component {
     };
   }
 
-  navbar() {
-    return (
-      <div className='App-body-navbar'> 
-        <ul> 
-          <Link id='homePage' to="/">Home</Link>
-          <Link id='userListPage' to="/likedMovies">Info</Link>
-        </ul>
-      </div> 
-    );
-  }
-
   render() {
     return ( 
       <div className="App">
         <div className="App-body">
-          {this.navbar()}
+          <div className='App-body-navbar'> 
+            <ul> 
+              <Link id='homePage' to="/">Home</Link>
+              <Link id='infoPage' to="/info">Info</Link>
+            </ul>
+          </div> 
         </div> 
       </div> 
     ); 

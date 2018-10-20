@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
+import './Home.scss'; 
 
-import './Discover.less'; 
-
-class Discover extends Component {
-  constructor() {
-    super();
-  }
-
+class Home extends Component {
   render() {
     return ( 
       <div>
@@ -15,4 +10,4 @@ class Discover extends Component {
     ); 
   }
 }
-export default Discover;
+export default Home;
