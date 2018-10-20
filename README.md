@@ -1,11 +1,6 @@
-# Movie collabrative picker app
+# Basic React and Parcel app
 
-An app to combat the issue of what movie to watch. Have your friends vote on movies they want to watch from a list, and then 
-see what your friends have liked in order to watch it together. 
-
-## Demo 
-
-See [movies.conorwhyte.com](http://movies.conorwhyte.com) for a live demo.
+A basic react and parcel barebones app,
 
 ## Commands 
 
@@ -23,7 +18,3 @@ yarn start
 - Puppeteer 
 - Flux 
 - React router
-- Less 
-- Lodash
-- React store
-- oMDB API and OpenMovies API

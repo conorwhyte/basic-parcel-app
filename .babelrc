@@ -1,4 +1,3 @@
 {
-  "presets": ["env", "react", "stage-3"], 
-  "plugins": ["emotion"]
+  "presets": ["env", "react", "stage-3"]
 }
