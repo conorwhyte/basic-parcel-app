@@ -15,6 +15,6 @@ ReactDOM.render(
     <div>
       <App />
       <Route exact path="/" component={Home}></Route>
-      <Route path="/info" component={Information}></Route>
+      <Route path="/info/" component={Information}></Route>
     </div>
   </BrowserRouter>, appElement);

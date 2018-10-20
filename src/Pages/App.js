@@ -16,13 +16,26 @@ class App extends Component {
   }
 
   render() {
+    const browser = window.chrome ? 'Chrome' : 'Other';
+    const userName = 'Conor';
+    const pageState = {
+      fromHome: true, 
+      browser,
+      ...this.state,
+    }; 
+
     return ( 
       <div className="App">
         <div className="App-body">
           <div className='App-body-navbar'> 
             <ul> 
               <Link id='homePage' to="/">Home</Link>
-              <Link id='infoPage' to="/info">Info</Link>
+              <Link
+                to={{
+                  pathname: '/info',
+                  search: `?name=${userName}`,
+                  state: { ...pageState },
+                }}> Info</Link>
             </ul>
           </div> 
         </div> 
