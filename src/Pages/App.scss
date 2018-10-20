@@ -2,12 +2,10 @@ $primaryColor: #000066;
 
 .App {
   font-family: Courier;
-
-  &-body {
-    padding-top: 5px;
-
+    
     &-navbar {
       text-align: center;
+      padding-top: 5px;
       font-size: 20px;
 
       a {
@@ -15,6 +13,5 @@ $primaryColor: #000066;
         padding: 0 10px;
         text-decoration: none;
       }
-    }
   }
 }

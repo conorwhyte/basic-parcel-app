@@ -6,3 +6,10 @@ export function changeMobile(text) {
     text, 
   }); 
 }
+
+export function changeUser(text) {
+  dispatcher.dispatch({
+    type: 'CHANGE_USER', 
+    text, 
+  }); 
+}
